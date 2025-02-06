@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f1e3;
+    color: #4a3f35;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6F4E37;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://static.vecteezy.com/system/resources/previews/028/232/052/original/inviting-coffee-shop-logo-in-format-exuding-warmth-and-aroma-perfect-for-a-cozy-cafe-ambiance-vector.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C08B5C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Menu Section */
+#menu {
+    padding: 50px;
+    text-align: center;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+}
+
+/* Contact Section */
+#contact us {
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #6F4E37;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6F4E37;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a3f35;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .menu-grid {
+        flex-direction: column;
+    }
+}
